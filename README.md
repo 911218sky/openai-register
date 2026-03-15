@@ -29,7 +29,7 @@
 
 ```bash
 # 克隆專案
-git clone https://github.com/your-username/openai-register.git
+git clone https://github.com/911218sky/openai-register.git
 cd openai-register
 
 # 安裝依賴
