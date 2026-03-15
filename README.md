@@ -69,9 +69,26 @@ cp config.example.yaml config.yaml
 # 啟動服務
 docker-compose up -d
 
-# 訪問 API
-# http://localhost:8317
+# 訪問服務
+# API 端點: http://localhost:8317
+# 管理面板: http://localhost:8317/management.html#/login
 ```
+
+#### 支援的協定
+
+- ✅ Chat Completions（OpenAI 格式）
+- ✅ Gemini Protocol
+- ✅ Claude Protocol
+- ✅ Codex Protocol
+
+#### 主要功能
+
+- 統一協定存取所有模型
+- 多 API 金鑰管理和負載均衡
+- 自動重試和故障轉移
+- 使用統計和配額管理
+
+> 詳細文檔請參考：https://help.router-for.me/
 
 ---
 
