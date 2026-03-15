@@ -1,0 +1,11 @@
+[project]
+name = "openai-register"
+version = "0.1.0"
+description = "OpenAI 自動註冊工具"
+requires-python = ">=3.12"
+dependencies = [
+    "curl-cffi>=0.14.0",
+]
+
+[dependency-groups]
+dev = []
